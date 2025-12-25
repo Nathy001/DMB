@@ -8,110 +8,121 @@
 <style>
 body{
   margin:0;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family:Segoe UI, Arial, sans-serif;
   background:#f4f6fb;
   color:#111;
-  text-align:center;
 }
+section{padding:60px 20px;}
 .hero{
   background:linear-gradient(135deg,#0a3cff,#081c5a);
   color:#fff;
-  padding:80px 20px;
+  text-align:center;
+  padding:90px 20px;
 }
-.sub-hero{
-  background:#0a3cff;
-  color:#fff;
-  padding:50px 20px;
-}
-.tagline{font-size:1.2em;margin:10px 0;}
-.brand{font-size:.9em;opacity:.9;}
-section{padding:50px 20px;}
-.card{
-  background:#fff;
-  max-width:520px;
-  margin:40px auto;
-  padding:35px;
-  border-radius:12px;
-  box-shadow:0 12px 30px rgba(0,0,0,0.08);
-}
-ul{list-style:none;padding:0;}
-li{padding:10px;}
+.hero h1{margin-bottom:10px;}
 .btn{
   display:inline-block;
-  margin:12px;
   padding:14px 28px;
   background:#f4b400;
   color:#000;
   text-decoration:none;
   border-radius:6px;
   font-weight:600;
+  margin:10px;
 }
-.btn.secondary{
+.btn.blue{background:#0a3cff;color:#fff;}
+.card{
   background:#fff;
-  color:#0a3cff;
+  max-width:800px;
+  margin:30px auto;
+  padding:35px;
+  border-radius:12px;
+  box-shadow:0 10px 30px rgba(0,0,0,.08);
 }
-.input{
-  width:80%;
-  padding:14px;
-  margin-bottom:15px;
-}
+.center{text-align:center;}
 footer{
   background:#0b0b0b;
   color:#fff;
-  padding:25px 10px;
+  text-align:center;
+  padding:30px 15px;
 }
+a{color:#0a3cff;}
 </style>
 </head>
 
 <body>
 
-<!-- HOME -->
-<header class="hero">
+<!-- HERO -->
+<div class="hero">
   <h1>Digital Marketing Bootcamp (DMB)</h1>
-  <p class="tagline">Turn What You Know Into Income</p>
-  <p class="brand">A Digital Nathy Brand</p>
+  <p>Turn What You Know Into Income</p>
+  <p>A Digital Nathy Brand</p>
 
-  <a href="#portal" class="btn">Student Portal</a>
-  <a href="#verify" class="btn secondary">Verify Certificate</a>
-</header>
+  <a href="#actions" class="btn">Student Action Center</a>
+  <a href="#verify" class="btn blue">Verify Certificate</a>
+</div>
 
-<section>
+<!-- ABOUT -->
+<section class="center">
   <h2>About DMB</h2>
   <p>
     Digital Marketing Bootcamp (DMB) is a premium digital education platform
-    operated under <strong>Digital Nathy</strong> and founded by
+    operated by <strong>Digital Nathy</strong> and founded by
     <strong>Oniah Emmanuel</strong>.
-    We help individuals turn their skills and knowledge into sustainable income.
   </p>
 </section>
 
-<section>
-  <h2>What You Get</h2>
-  <ul>
-    <li>Practical Digital Marketing Training</li>
-    <li>Official Certificates with Verification</li>
-    <li>Student Portal & Resources</li>
-    <li>Alumni & Ambassador Community</li>
-  </ul>
-</section>
-
-<!-- PORTAL -->
-<section id="portal">
-  <div class="sub-hero">
-    <h2>DMB Student Portal</h2>
-    <p>Official learning and student access hub</p>
-  </div>
-
+<!-- ACTION CENTER -->
+<section id="actions">
   <div class="card">
-    <ul>
-      <li>Training Materials</li>
-      <li>Announcements & Updates</li>
-      <li>Certificates & Graduation</li>
-      <li>Alumni & Ambassador Opportunities</li>
-    </ul>
+    <h2 class="center">Student Action Center</h2>
+
+    <p><strong>Step 1:</strong> Join the Official WhatsApp Channel</p>
+    <a class="btn" href="https://whatsapp.com/channel/0029VbBM3Ao9mrGjHvT3k72Y" target="_blank">Join Channel</a>
+
+    <p><strong>Step 2:</strong> Join Student Discussion Group</p>
+    <a class="btn" href="https://chat.whatsapp.com/LcYQODQN4GK27e3ocU2G3u" target="_blank">Join Group</a>
+
+    <p><strong>Step 3:</strong> Introduce Yourself in the Group</p>
+    <p><strong>Step 4:</strong> Follow daily tasks & instructions</p>
+    <p><strong>Step 5:</strong> Complete training & earn certificate</p>
   </div>
 </section>
 
+<!-- CONTACT -->
+<section class="center">
+  <h2>Contact Admin</h2>
+  <a class="btn" href="https://wa.me/2349164266235" target="_blank">Chat on WhatsApp</a>
+</section>
+
+<!-- SOCIALS -->
+<section class="center">
+  <h2>Follow Digital Nathy</h2>
+  <p>
+    <a href="https://www.facebook.com/share/16bn5h9CfD/">Facebook</a> |
+    <a href="https://www.linkedin.com/in/oniah-emmanuel-6aa9a62aa">LinkedIn</a> |
+    <a href="https://www.instagram.com/digitalnathy?igsh=OXJpcnc0cmpiMnAy">Instagram</a> |
+    <a href="https://www.tiktok.com/@digitalnathy?_r=1&_t=ZS-92W06TIExu9">TikTok</a>
+  </p>
+</section>
+
+<!-- VERIFY -->
+<section id="verify">
+  <div class="card center">
+    <h2>DMB SecureVerify™</h2>
+    <p>Verify certificates issued by Digital Marketing Bootcamp</p>
+    <p><strong>Verification Link:</strong> bit.ly/DMBverify</p>
+    <p>WhatsApp Verification: <strong>09164266235</strong></p>
+  </div>
+</section>
+
+<footer>
+  <p>© Digital Marketing Bootcamp (DMB)</p>
+  <p>Operated by Digital Nathy | Founded by Oniah Emmanuel</p>
+</footer>
+
+</body>
+</html>
 <!-- VERIFY -->
 <section id="verify">
   <div class="sub-hero">
